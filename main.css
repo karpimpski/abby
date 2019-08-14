@@ -1,0 +1,50 @@
+body {
+  background: #0E8201;
+  text-align: center;
+}
+
+button {
+  color: white;
+  background: #F70B0B;
+  border: solid 2px white;
+  border-radius: 4px;
+  height: 30px;
+  font-weight: bold;
+  transition: all 0.2s;
+  margin-bottom: 6px;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 2px 1px 10px #F70B0B;
+}
+
+button:focus {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+pre {
+  font-family: Consolas;
+  font-size: 20px;
+  display: none;
+  color: white;
+}
+
+pre.active {
+  display: block;
+}
+
+img {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.2s;
+}
+
+img.active {
+  display: block;
+}
